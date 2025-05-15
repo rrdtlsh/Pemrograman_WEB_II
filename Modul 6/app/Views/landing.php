@@ -11,7 +11,7 @@
             background: url('assets/bg1.jpg') no-repeat center center fixed;
             background-size: cover;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            min-height: 100vh;
+            min-height: 110vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -75,6 +75,7 @@
 </head>
 
 <body>
+    <?= view('partials/navbar') ?>
     <div class="card-fun">
         <div class="emoji mb-2">👋✨</div>
         <h1>Selamat Datang di Website Praktikum</h1>

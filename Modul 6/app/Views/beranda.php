@@ -24,7 +24,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 90vh;
             z-index: 1;
             position: relative;
             text-align: center;
@@ -102,6 +102,7 @@
 </head>
 
 <body>
+    <?= view('partials/navbar') ?>
     <div class="content-wrapper">
         <div class="card-profile">
             <div class="logo-container">
